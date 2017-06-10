@@ -12,9 +12,9 @@ $npm start
 ```
 ## Built With
 
-* [React](http://www.dropwizard.io/1.0.2/docs/)
-* [Redux](https://maven.apache.org/)
-* [React Router](https://rometools.github.io/rome/)
+* [React](https://facebook.github.io/react/)
+* [Redux](https://github.com/reactjs/redux)
+* [React Router](https://github.com/ReactTraining/react-router)
 * [BootsWatch - Journal Theme](https://bootswatch.com/journal/)
 
 ## Authors
