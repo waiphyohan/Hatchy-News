@@ -71,8 +71,8 @@ class App extends Component {
               <hr />
               <ul className="nav nav-pills">
                 <li ><NavLink exact activeClassName="active" to="/">New</NavLink></li>
-                <li ><NavLink exact activeClassName="active" to={{pathname: '/top', id: 'top'}}>Top</NavLink></li>
                 <li ><NavLink exact activeClassName="active" to="/best">Best</NavLink></li>
+                <li ><NavLink exact activeClassName="active" to="/top">Top</NavLink></li>
               </ul>
               <button className="btn btn-info btn-refresh" onClick={this.handleRefresh}>
                 <span className="glyphicon glyphicon-refresh" aria-hidden="true"></span>
