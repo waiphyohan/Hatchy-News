@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import Moment from 'react-moment'
 
 const News = ({ items }) => (
 
@@ -15,7 +16,7 @@ const News = ({ items }) => (
                 <span className="glyphicon glyphicon-star" aria-hidden="true"></span> {item.score}
               </h6>
               <h6 className="label label-default label-meta">
-                <span className="glyphicon glyphicon-time" aria-hidden="true"></span> {item.time}
+                <span className="glyphicon glyphicon-time" aria-hidden="true"></span>  <Moment unix fromNow>{item.time}</Moment>
               </h6>
               <h6 className="label label-default label-meta">
                 <span className="glyphicon glyphicon-user" aria-hidden="true"></span> {item.by}
